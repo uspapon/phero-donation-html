@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lobster&family=Poppins:wght@400;500;600;700&display=swap');
+/* -------------------------------------
+    COMMON CSS
+-----------------------------------------*/
+html, body { padding: 0; margin: 0;}
+.siteWrapper{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    color: #707070;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+
+.siteInnerWrapper {
+    width: 865px;
+    margin: 0 auto; 
+    color: #707070;
+
+
+}
+
+.siteBtn {
+    border: 0;
+    border-radius: 5px;
+    background-color: #FF5959;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+hr { }
+
+/* -------------------------------------
+    CSS FOR HEADER
+-----------------------------------------*/
+
+
+
+
+/* -------------------------------------
+    CSS FOR BANNER
+-----------------------------------------*/
+#siteBannerArea {
+    background: url("images/donation1.jpg") top left no-repeat;
+    background-size: cover;
+    opacity: .85;
+
+}
+
+.siteBanner {
+    padding: 50px 0 150px 0;
+    margin: 0 130px;
+}
+
+#siteBannerArea h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#siteBannerArea p {
+    margin: 0 80px 20px 80px;
+    line-height: 30px;
+    color: #fff;
+}
+
+
+
+
+
+/* -------------------------------------
+    CSS FOR DONATE TODAY SECTION
+-----------------------------------------*/
+.donateToday h2, .donationPlan h2, .blogItems h2, .siteSubscriptionArea h2{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 100px auto 20px auto;
+
+}
+
+.donateToday p {
+    line-height: 25px;
+    margin: auto 60px 30px 60px;
+
+}
+
+.donateToday ul {
+    padding: 0;
+    margin-left: 20px;
+    list-style: none;
+    display: flex;
+    gap: 22px;
+
+}
+
+.donateToday ul li a {
+    display: block;
+    padding: 54px 30px;
+    border: 2px solid #fafafa;
+    border-radius: 5px;
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #FAFAFA;
+    text-decoration: none;
+   
+}
+
+.donateToday ul li a:hover {
+    border: 2px solid #FF5959;
+    background: #fee;
+    color: #FF5959;
+
+
+}
+.donateToday p.amtIndicator{
+    line-height: 20px !important;
+    margin: 50px auto 0 auto;
+
+} 
+
+.donateToday hr {
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid #dadada;
+    
+
+}
+/* -------------------------------------
+    CSS FOR Donation PLAN OPTION
+-----------------------------------------*/
+.donationPlanOpt ul{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    color: #707070;
+    list-style: none;
+}
+
+.donationPlanOpt .item {
+    width: 360px;
+    padding: 80px 25px 40px 22px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.donationPlanOpt .item1 {
+    background:  #edf5f6 url("icons/food.png") 24px 43px no-repeat;
+}
+
+.donationPlanOpt .item2 {
+    background:  #ffeeee url("icons/shelter.png") 24px 43px no-repeat;
+}
+
+.donationPlanOpt .item3 {
+    background:  #fff4d6 url("icons/Frame-1.png") 24px 43px no-repeat;
+}
+
+.donationPlanOpt ul li img { 
+
+}
+.donationPlanOpt ul li h3 { 
+    margin: 40px auto 5px;
+    color: #121212;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+/* -------------------------------------
+    CSS FOR DONATION BLOG
+-----------------------------------------*/
+.blogItems {
+    margin: 70px 0 0;
+    display: flex;
+}
+.mLeft { margin-left: 100px;}
+.shaffelOrder {
+    /* order: 2; */
+}
+
+.blogItems .blogImg img {
+    width: 600px;
+}
+.blogItems .blogContent {
+
+}
+
+/* -------------------------------------
+    CSS FOR SUBSCRIPTION AREA
+-----------------------------------------*/
+.siteSubscriptionArea .subscriptionDesc {
+    width: 650px;
+    margin: 0 auto 70px auto;
+}
+.siteSubscriptionArea .subscreptionArea {
+    background: #FFF4D6;
+    height: 200px;
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.siteSubscriptionArea .subscreptionArea input {    }
+
+.siteSubscriptionArea .subscreptionArea input[type="email"] {
+    border: 0;
+    padding: 10px 20px;
+    width: 300px;
+    height: 30px;
+}
+
+input:focus-visible {border: 0 !important;}
+
+.siteSubscriptionArea .subscreptionArea input[type="submit"] {
+    height: 50px;
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+/* -------------------------------------
+    CSS FOR FOOTER
+-----------------------------------------*/
+.siteFooterArea {
+    height: 177px;
+    background-color: #0B0D17;
+}
+
+.siteFooterArea p.lobstertxt {
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-size: 36px;
+    padding: 50px 0 0;
+    margin-bottom: 0;
+}
+
+.siteFooterArea p { font-size: 12px;}
